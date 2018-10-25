@@ -16,6 +16,9 @@ SNS is the Stellar Name Service, a distributed, open, and extensible naming syst
 #### Table of Contents
 - [Introduction](./docs/INTRODUCTION.md)
 
+## SNS
+![Web3](./assets/web3-stellar.png)
+
 ## 🔗 Resources
 - [Official Website](https://www.stellar.org/)
 
