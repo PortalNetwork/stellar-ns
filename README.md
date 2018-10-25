@@ -1,4 +1,4 @@
-# Stellar Name Service
+![Stellar Name Service](./assets/title.jpg)
 
 > 📖🔍 Documents of the Stellar Name Service.
 
