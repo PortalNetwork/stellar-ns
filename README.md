@@ -30,7 +30,8 @@ SNS is the Stellar Name Service, a distributed, open, and extensible naming syst
 Stellar plays an connecting and entry layer in Web3.0 services. It connects with Stellar wallet, bridge server, compliance server, federation server, horizon and stellar blockchain.
 ![Web3](./assets/web3-stellar.png)
 
-## Stellar Tech Stack
+## 🗂️ Stellar Tech Stack
+![SNS stack](./assets/stack/sns-stack.jpg)
 
 # Introduce
 
