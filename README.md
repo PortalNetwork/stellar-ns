@@ -56,7 +56,7 @@ The resolver is in charge of resolving the universal mapping logic from wallet a
 ![SNS stack](./assets/stack/sns-stack.jpg)
 
 ### State Layer
-Stellar serves as the core blockchain network in state layer. The state layer is the abstraction that each participant owns their state information and transactions history based on blockchain identities. Stellar-NS stores the related information in this layer.
+Stellar serves as the core blockchain network in state layer. The state layer is the abstraction that each participant owns their state information and transactions history based on blockchain identities. Stellar-NS stores the related information in this layer.
 ![SNS state](./assets/stack/s-1.jpg)
 
 ### Computation Layer
