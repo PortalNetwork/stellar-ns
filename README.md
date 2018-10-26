@@ -28,6 +28,35 @@ Stellar plays an connecting and entry layer in Web3.0 services. It connects with
 ## 🗂️ Stellar Tech Stack
 ![SNS stack](./assets/stack/sns-stack.jpg)
 
+### State Layer
+
+![SNS state](./assets/stack/s-1.jpg)
+
+### Computation Layer
+
+![SNS computation](./assets/stack/s-2.jpg)
+
+### Component Layer
+
+![SNS stack](./assets/stack/s-3.jpg)
+
+### Scalability / Transfer Layer
+
+![SNS stack](./assets/stack/s-4.jpg)
+
+### Protocol Layer
+
+![SNS stack](./assets/stack/s-5.jpg)
+
+### User Control Layer
+
+![SNS stack](./assets/stack/s-6.jpg)
+![SNS stack](./assets/stack/s-7.jpg)
+
+### Application Layer
+
+![SNS stack](./assets/stack/s-8.jpg)
+
 ## Stellar Wallet
 
 ## Stellar Testnet
