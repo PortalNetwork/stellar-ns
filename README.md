@@ -2,6 +2,8 @@
 
 > 📖🔍 Documents of the Stellar Name Service.
 
+# Overview
+
 ## 💡 What is Stellar?
 Stellar also known as Stellar Lumen, is a pragmatic blockchain project that aims to function as a bridge between the opposing worlds of cryptocurrency and traditional centralized financial institutions.
 
@@ -16,8 +18,18 @@ SNS is the Stellar Name Service, a distributed, open, and extensible naming syst
 #### Table of Contents
 - [Introduction](./docs/INTRODUCTION.md)
 
-## SNS Workflow
+## ⌨️ Stellar Smart Contract
+- [Stellar Smart Contract](https://www.stellar.org/developers/guides/walkthroughs/stellar-smart-contracts.html)
+
+## Stellar in Web3.0
+Stellar plays an connecting and entry layer in Web3.0 services. It connects with Stellar wallet, bridge server, compliance server, federation server, horizon and stellar blockchain.
 ![Web3](./assets/web3-stellar.png)
+
+## Stellar Tech Stack
+
+## Stellar Wallet
+
+## Stellar Testnet
 
 ## 🔗 Resources
 - [Official Website](https://www.stellar.org/)
