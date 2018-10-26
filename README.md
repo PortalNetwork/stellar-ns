@@ -49,39 +49,39 @@ Your bridge server contacts your compliance server in order to authorize a trans
 Horizon is the client-facing API server for the Stellar ecosystem. It acts as the interface between Stellar Core and applications that want to access the Stellar network. Horizon allows you to submit transactions to the network, check the status of accounts, and subscribe to event streams. For more details, see an overview of the Stellar network.
 
 ## 🗂️ Stellar Tech Stack
-Stellar Name Service(Stellar-ns) governs by the Stellar Smart Contract(SSC) with three abstract components, registrar, registry, and resolver. Those three main smart contracts components represent the three responsibilities for the best practice of current naming system. 
-The registry stores a list of every domain (and subdomain, and sub-sub-domain, and so forth) and the realted ownership information. 
-The registrar governs the registering process for the specific domain. The mechanism design for the process should consider how to prevent the collusion, and economical effeciency.
+Stellar Name Service(Stellar-NS) governs by the Stellar Smart Contract(SSC) with three abstract components, registrar, registry, and resolver. Those three main smart contracts components represent the three responsibilities for the best practice of the current naming system. 
+The registry stores a list of every domain (and subdomain, and sub-sub-domain, and so forth) and the related ownership information. 
+The registrar governs the registering process for the specific domain. The mechanism design for the process should consider how to prevent the collusion and economical efficiency.
 The resolver is in charge of resolving the universal mapping logic from wallet address, contract address, decentralized content address, and many more.
 ![SNS stack](./assets/stack/sns-stack.jpg)
 
 ### State Layer
-
+Stellar serves as the core blockchain network in state layer. The state layer is the abstraction that each participant owns their state information and transactions history based on blockchain identities. Stellar-NS stores the related information in this layer.
 ![SNS state](./assets/stack/s-1.jpg)
 
 ### Computation Layer
-
+Developres can utilize different programming languages to implement their business logic to the smart contract such as Golang, Javascript, and Java, and many more languages maintained by the communities. The Stellar Smart Contract is implemented mainly by the multisignature from the related parties, operations in batching and atomicity, sequence way, and time bounds process.
 ![SNS computation](./assets/stack/s-2.jpg)
 
 ### Component Layer
-
+The design of digital assets can have more functions by combing the State Layer and Computation Layer, such as crypto assets, and identities. We can modularize mechanism design and economical model into different components.
 ![SNS stack](./assets/stack/s-3.jpg)
 
 ### Scalability / Transfer Layer
-
+The native advantage of Stellar is lighting transaction abilities. The future support of state channel and current support payment channel abilities greatly solve the pain point when transferring crypto assets.
 ![SNS stack](./assets/stack/s-4.jpg)
 
 ### Protocol Layer
-
+The BNS protocol is a standard which can make the Stellar Name Service more efficient. The protocol connects different layers together and increase more business capacity, enhance the usability and reduce the complexity.
 ![SNS stack](./assets/stack/s-5.jpg)
 
 ### User Control Layer
-
+This layer is in charge of managing a user’s private keys and the interaction with the State Layer. Stellar-NS plays a crucial rule to transfer hashes to human-recognizable names. Stellar wallet and browser extensions can resolver Stellar domain to wallet address, contract address, different protocol hash.
 ![SNS stack](./assets/stack/s-6.jpg)
 ![SNS stack](./assets/stack/s-7.jpg)
 
 ### Application Layer
-
+The above components provided by different layers unleashes more real business opportunities. For example, developers can utilize the tech stacks to build a decentralized art auction system which can interact with the Stellar and host on IPFS. Users can view the decentralized resources through simply typing yourauction.xlm on the domain URL bar with our further enhancement in the browser extension. 
 ![SNS stack](./assets/stack/s-8.jpg)
 
 ## Stellar Testnet
