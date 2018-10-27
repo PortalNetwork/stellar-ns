@@ -72,7 +72,7 @@ The native advantage of Stellar is lighting transaction abilities. The future su
 ![SNS stack](./assets/stack/s-4.jpg)
 
 ### Protocol Layer
-The BNS protocol is a standard which can make the Stellar Name Service more efficient. The protocol connects different layers together and increase more business capacity, enhance the usability and reduce the complexity.
+Stellar Name Service can utilize the BNS protocol to modularize the business logic and provide the well-designed interfaces to let other services easily integrated with. Following the BNS protocol achieve the goals from connecting different layers to increase more business capacity, enhance the usability and reduce the complexity.
 ![SNS stack](./assets/stack/s-5.jpg)
 
 ### User Control Layer
