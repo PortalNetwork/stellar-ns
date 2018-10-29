@@ -49,7 +49,7 @@ Your bridge server contacts your compliance server in order to authorize a trans
 Horizon is the client-facing API server for the Stellar ecosystem. It acts as the interface between Stellar Core and applications that want to access the Stellar network. Horizon allows you to submit transactions to the network, check the status of accounts, and subscribe to event streams. For more details, see an overview of the Stellar network.
 
 ## 🗂️ Stellar Tech Stack
-Stellar Name Service(Stellar-NS) governs by the Stellar Smart Contract(SSC) with three abstract components, registrar, registry, and resolver. Those three main smart contracts components represent the three responsibilities for the best practice of the current naming system. 
+Three abstract components which are registrar, registry, and resolver modularize the whole Stellar Name system into three pieces. Those three main smart contracts components represent the three responsibilities for the best practice of the current naming system. 
 The registry stores a list of every domain (and subdomain, and sub-sub-domain, and so forth) and the related ownership information. 
 The registrar governs the registering process for the specific domain. The mechanism design for the process should consider how to prevent the collusion and economical efficiency.
 The resolver is in charge of resolving the universal mapping logic from wallet address, contract address, decentralized content address, and many more.
